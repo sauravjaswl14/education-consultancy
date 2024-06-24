@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./css/input.css -o ./css/main.css ",
+    "build": "[my-framework] build --output public ",
     "watch": "npx tailwindcss -i ./css/input.css -o ./css/main.css --watch"
   },
   "keywords": [],
